@@ -1,4 +1,4 @@
-# python-dsa--journey
+# python-dsa-journey
 My daily Python-Dsa learning journey
 This repository contains my daily practice of Python and Data Structures & Algorithms.
 
