@@ -33,3 +33,14 @@ arr=[10,80,20,60,30,30,40,50,50]
 unique=sorted(set(arr))
 second_largest=unique[-2]
 print(second_largest)
+
+
+arr=[5,3,8,4,2]
+n=len(arr)
+for i in range(n):
+    max_index=i
+    for j in range(i+1,n):
+        if arr[j]>arr[max_index]:
+            max_index=j
+    arr[i],arr[max_index]=arr[max_index],arr[i]
+print(arr)
